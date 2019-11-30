@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		E88FE9952361976D00D13930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9942361976D00D13930 /* AppDelegate.swift */; };
 		E88FE9972361976D00D13930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9962361976D00D13930 /* SceneDelegate.swift */; };
-		E88FE9992361976D00D13930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9982361976D00D13930 /* ViewController.swift */; };
-		E88FE99C2361976D00D13930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88FE99A2361976D00D13930 /* Main.storyboard */; };
+		E88FE9992361976D00D13930 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9982361976D00D13930 /* HomeViewController.swift */; };
 		E88FE99E2361976E00D13930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88FE99D2361976E00D13930 /* Assets.xcassets */; };
 		E88FE9A12361976E00D13930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88FE99F2361976E00D13930 /* LaunchScreen.storyboard */; };
 		E88FE9AC2361976E00D13930 /* Favorite_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9AB2361976E00D13930 /* Favorite_PlacesTests.swift */; };
 		E88FE9B72361976E00D13930 /* Favorite_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9B62361976E00D13930 /* Favorite_PlacesUITests.swift */; };
+		E88FE9C523619FD800D13930 /* FavoritePlacesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9C423619FD800D13930 /* FavoritePlacesCollectionView.swift */; };
+		E88FE9C72361A0CF00D13930 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88FE9C62361A0CF00D13930 /* Extensions.swift */; };
+		E89BBD252361DE9300DD28FD /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BBD242361DE9300DD28FD /* Places.swift */; };
+		E89BBD272361DEA000DD28FD /* PlacesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BBD262361DEA000DD28FD /* PlacesAPI.swift */; };
+		E8C3C0242363325C003FADEA /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3C0232363325C003FADEA /* Extensions+UIView.swift */; };
+		E8C3C0262363327C003FADEA /* StretchyHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3C0252363327C003FADEA /* StretchyHeaderController.swift */; };
+		E8C3C02823633294003FADEA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3C02723633294003FADEA /* HeaderView.swift */; };
+		E8C3C02A2363441C003FADEA /* StretchyHeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3C0292363441C003FADEA /* StretchyHeaderCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,7 @@
 		E88FE9912361976D00D13930 /* Favorite Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88FE9942361976D00D13930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E88FE9962361976D00D13930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E88FE9982361976D00D13930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E88FE99B2361976D00D13930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E88FE9982361976D00D13930 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E88FE99D2361976E00D13930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88FE9A02361976E00D13930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88FE9A22361976E00D13930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		E88FE9B22361976E00D13930 /* Favorite PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88FE9B62361976E00D13930 /* Favorite_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_PlacesUITests.swift; sourceTree = "<group>"; };
 		E88FE9B82361976E00D13930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88FE9C423619FD800D13930 /* FavoritePlacesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlacesCollectionView.swift; sourceTree = "<group>"; };
+		E88FE9C62361A0CF00D13930 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E89BBD242361DE9300DD28FD /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		E89BBD262361DEA000DD28FD /* PlacesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesAPI.swift; sourceTree = "<group>"; };
+		E8C3C0232363325C003FADEA /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		E8C3C0252363327C003FADEA /* StretchyHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderController.swift; sourceTree = "<group>"; };
+		E8C3C02723633294003FADEA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E8C3C0292363441C003FADEA /* StretchyHeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +115,10 @@
 			children = (
 				E88FE9942361976D00D13930 /* AppDelegate.swift */,
 				E88FE9962361976D00D13930 /* SceneDelegate.swift */,
-				E88FE9982361976D00D13930 /* ViewController.swift */,
-				E88FE99A2361976D00D13930 /* Main.storyboard */,
+				E88FE9C82361A10700D13930 /* Helpers */,
+				E88FE9C92361A10E00D13930 /* Models */,
+				E88FE9CA2361A11700D13930 /* Views */,
+				E88FE9CB2361A11E00D13930 /* Controllers */,
 				E88FE99D2361976E00D13930 /* Assets.xcassets */,
 				E88FE99F2361976E00D13930 /* LaunchScreen.storyboard */,
 				E88FE9A22361976E00D13930 /* Info.plist */,
@@ -126,6 +142,43 @@
 				E88FE9B82361976E00D13930 /* Info.plist */,
 			);
 			path = "Favorite PlacesUITests";
+			sourceTree = "<group>";
+		};
+		E88FE9C82361A10700D13930 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E88FE9C62361A0CF00D13930 /* Extensions.swift */,
+				E8C3C0232363325C003FADEA /* Extensions+UIView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E88FE9C92361A10E00D13930 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E89BBD242361DE9300DD28FD /* Places.swift */,
+				E89BBD262361DEA000DD28FD /* PlacesAPI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E88FE9CA2361A11700D13930 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E88FE9C423619FD800D13930 /* FavoritePlacesCollectionView.swift */,
+				E8C3C02723633294003FADEA /* HeaderView.swift */,
+				E8C3C0292363441C003FADEA /* StretchyHeaderCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E88FE9CB2361A11E00D13930 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E88FE9982361976D00D13930 /* HomeViewController.swift */,
+				E8C3C0252363327C003FADEA /* StretchyHeaderController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +287,6 @@
 			files = (
 				E88FE9A12361976E00D13930 /* LaunchScreen.storyboard in Resources */,
 				E88FE99E2361976E00D13930 /* Assets.xcassets in Resources */,
-				E88FE99C2361976D00D13930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +311,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88FE9992361976D00D13930 /* ViewController.swift in Sources */,
+				E89BBD272361DEA000DD28FD /* PlacesAPI.swift in Sources */,
+				E88FE9C72361A0CF00D13930 /* Extensions.swift in Sources */,
+				E8C3C0262363327C003FADEA /* StretchyHeaderController.swift in Sources */,
+				E8C3C0242363325C003FADEA /* Extensions+UIView.swift in Sources */,
+				E88FE9C523619FD800D13930 /* FavoritePlacesCollectionView.swift in Sources */,
+				E88FE9992361976D00D13930 /* HomeViewController.swift in Sources */,
+				E8C3C02A2363441C003FADEA /* StretchyHeaderCollectionView.swift in Sources */,
+				E8C3C02823633294003FADEA /* HeaderView.swift in Sources */,
 				E88FE9952361976D00D13930 /* AppDelegate.swift in Sources */,
 				E88FE9972361976D00D13930 /* SceneDelegate.swift in Sources */,
+				E89BBD252361DE9300DD28FD /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E88FE99A2361976D00D13930 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E88FE99B2361976D00D13930 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E88FE99F2361976E00D13930 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
