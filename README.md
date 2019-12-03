@@ -1,4 +1,4 @@
-# Favorite-Places
+# Favorite Places UI
 
 Creating Favorite Places App, Programmatically without Storyboard Using Swift 5.0+
 
